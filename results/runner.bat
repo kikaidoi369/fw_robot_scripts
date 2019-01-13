@@ -1,0 +1,1 @@
+robot --outputdir "D:\Workspace\RobotFramework\Fastwork\results" "D:\Workspace\RobotFramework\Fastwork\automate_scripts\mobile.robot"
