@@ -1,5 +1,5 @@
 import subprocess
-import time
+import datetime
 
 class adbLibrary():
 
@@ -82,5 +82,7 @@ class adbLibrary():
         android_version = str(subprocess.check_output("adb -s " + serialNumber + " shell getprop ro.build.version.release")).replace("\r\n","")
         return android_version
 
-
-#adbLibrary().adb_clear_recent_apps("YED7N16916001480")
+    def get_date_time(self):
+        return datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+        
+# print adbLibrary().get_date_time()
