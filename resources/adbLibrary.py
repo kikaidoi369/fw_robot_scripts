@@ -1,5 +1,6 @@
 import subprocess
 import datetime
+import re
 
 class adbLibrary():
 
@@ -83,6 +84,9 @@ class adbLibrary():
         return android_version
 
     def get_date_time(self):
-        return datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
-        
+        return datetime.datetime.now().strftime("%Y%m%d%H%M%S")
+
+    def verify_result_with_flag(self,resultText,flag):
+        return False
+
 # print adbLibrary().get_date_time()
