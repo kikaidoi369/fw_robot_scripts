@@ -67,6 +67,7 @@ Fastwork Login Positive Facebook
 2. This scripts cannot input thai language into Edittext on Mobile
 
 **After try using the Automate scripts, if you found any issues, you can contact me directly via contact as below**
+
 Tel: 086-453-6156
 Email: phonkornkrit@gmail.com
 Line: jayjay369
